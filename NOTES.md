@@ -1,1 +1,2 @@
 Classification in ML is a supervised task where a model learns to assign each input to one of a set of predefined classes.
+I kept THRESHOLD = 0.4 because for an IDS a missed attack is worse than a false alarm: a false alarm only costs some analyst time, while a missed attack can let an intruder compromise the network.
